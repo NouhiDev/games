@@ -446,8 +446,8 @@
 }
 
 .remnants {
-  border-color: rgb(255, 219, 146);
-  color: rgb(255, 219, 146);
+  border-color: #e3a675;
+  color: #e3a675;
   font-family: "Anonymous Pro", monospace;
 }
 
@@ -462,12 +462,12 @@
   cursor: pointer;
   font-size: 15pt;
   padding: 20px;
-  color: rgb(255, 219, 146);
+  color: #e3a675;
   background-color: var(--main-bg-color);
   border-image: none;
   border-top-style: solid;
   border-right-style: solid;
-  border-top-color: rgb(255, 219, 146);
+  border-top-color: #e3a675;
   border-bottom-style: solid;
   border-left-style: solid;
   border-top-width: 0.020833333in;
@@ -476,11 +476,11 @@
   border-left-width: 0.020833333in;
   height: 0in;
   max-width: 200px;
-  border-right-color: rgb(255, 219, 146);
+  border-right-color: #e3a675;
   transition: transform 0.2s;
   text-align: center;
-  border-bottom-color: rgb(255, 219, 146);
-  border-left-color: rgb(255, 219, 146);
+  border-bottom-color: #e3a675;
+  border-left-color: #e3a675;
   justify-content: flex-end;
   display: flex;
   position: absolute;
@@ -489,7 +489,7 @@
 .remnants-btn:hover {
     transform: scale(1.1);
     color: var(--main-bg-color);
-    background-color: rgb(255, 219, 146);
+    background-color: #e3a675;
 }
 
 .achromatopsia {
