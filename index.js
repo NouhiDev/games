@@ -39,3 +39,7 @@ function achromatopsia_btn() {
 function ets_btn() {
   location.href = "https://nouhidev.itch.io/escape-the-shrek";
 }
+
+function myd_btn() {
+  location.href = "https://nouhidev.itch.io/my-eyes-deceive";
+}
