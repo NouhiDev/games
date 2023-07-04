@@ -594,6 +594,7 @@ nav ul li a {
   transition: 0.2s;
   border-radius: 30px;
   font-family: "Rubik", sans-serif;
+  font-weight: lighter;
 }
 
 nav ul li a:hover {
