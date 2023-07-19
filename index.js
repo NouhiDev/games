@@ -43,3 +43,13 @@ function ets_btn() {
 function myd_btn() {
   location.href = "https://nouhidev.itch.io/my-eyes-deceive";
 }
+
+/* Setup global Navbar */ 
+const NAV_URL = "https://nouhi.dev/assets/html-templates/navbar.txt";
+
+fetch(NAV_URL)
+  .then( r => r.text() )
+  .then( t => {
+    var whereToInject = document.getElementsByTagName("header")[0];
+    whereToInject.innerHTML += t;
+});
